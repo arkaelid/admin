@@ -1,0 +1,11 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<h1>Ajouter une catégorie</h1>
+<form action="/category/add" method="POST">
+    <label for="libelle">Libellé :</label>
+    <input type="text" name="libelle" required>
+    <button type="submit">Ajouter</button>
+</form>
+<a href="/category">Retour</a>
+{% endblock %}

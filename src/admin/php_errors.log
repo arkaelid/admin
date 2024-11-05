@@ -1,0 +1,3410 @@
+[25-Oct-2024 08:41:04 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:41:05 UTC] Méthode login appelée
+[25-Oct-2024 08:41:05 UTC] Affichage du formulaire de connexion
+[25-Oct-2024 08:41:06 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:41:07 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:41:12 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:41:12 UTC] Méthode login appelée
+[25-Oct-2024 08:41:12 UTC] Utilisateur trouvé dans la BDD : non
+[25-Oct-2024 08:41:12 UTC] Échec de l'authentification
+[25-Oct-2024 08:41:12 UTC] Affichage du formulaire de connexion
+[25-Oct-2024 08:41:12 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:41:13 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:42:30 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:42:30 UTC] Méthode login appelée
+[25-Oct-2024 08:42:30 UTC] Utilisateur trouvé dans la BDD : oui
+[25-Oct-2024 08:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Model\Auth::verifyMySQLPassword() in /var/www/html/admin/controller/Auth.php:51
+Stack trace:
+#0 /var/www/html/admin/controller/Auth.php(30): Controller\Auth->verifyMySQLPassword('riez1roi', '*3A06800F08E81E...')
+#1 /var/www/html/admin/public/index.php(38): Controller\Auth->login(Array)
+#2 {main}
+  thrown in /var/www/html/admin/controller/Auth.php on line 51
+[25-Oct-2024 08:42:31 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:42:32 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:43:51 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:43:51 UTC] Méthode login appelée
+[25-Oct-2024 08:43:51 UTC] Utilisateur trouvé dans la BDD : oui
+[25-Oct-2024 08:43:52 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:43:52 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:43:53 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:43:53 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:44:11 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:44:11 UTC] Méthode login appelée
+[25-Oct-2024 08:44:11 UTC] Redirection vers /index (utilisateur déjà connecté)
+[25-Oct-2024 08:44:11 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:44:11 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:44:12 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:44:13 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:23 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:24 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:46:25 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:25 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:38 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:38 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:46:39 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:40 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:50 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:50 UTC] Méthode login appelée
+[25-Oct-2024 08:46:50 UTC] Redirection vers /index (utilisateur déjà connecté)
+[25-Oct-2024 08:46:50 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:50 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:46:51 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:46:51 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:21 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:21 UTC] PHP Fatal error:  Uncaught Error: Class "Core\View" not found in /var/www/html/admin/controller/Main.php:16
+Stack trace:
+#0 /var/www/html/admin/public/index.php(37): Controller\Main->__construct()
+#1 {main}
+  thrown in /var/www/html/admin/controller/Main.php on line 16
+[25-Oct-2024 08:47:22 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:23 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:52 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:52 UTC] PHP Fatal error:  Uncaught Error: Class "controller\View" not found in /var/www/html/admin/controller/Main.php:16
+Stack trace:
+#0 /var/www/html/admin/public/index.php(37): Controller\Main->__construct()
+#1 {main}
+  thrown in /var/www/html/admin/controller/Main.php on line 16
+[25-Oct-2024 08:47:53 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:47:54 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:48 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:49 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:49:50 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:50 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:56 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:56 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:56 UTC] Méthode login appelée
+[25-Oct-2024 08:49:56 UTC] Affichage du formulaire de connexion
+[25-Oct-2024 08:49:57 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:49:58 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:26 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:26 UTC] Méthode login appelée
+[25-Oct-2024 08:50:26 UTC] Utilisateur trouvé dans la BDD : oui
+[25-Oct-2024 08:50:26 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:27 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 08:50:28 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:28 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:33 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:33 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:33 UTC] Méthode login appelée
+[25-Oct-2024 08:50:33 UTC] Affichage du formulaire de connexion
+[25-Oct-2024 08:50:34 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 08:50:34 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:19 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:19 UTC] Méthode login appelée
+[25-Oct-2024 09:19:19 UTC] Utilisateur trouvé dans la BDD : oui
+[25-Oct-2024 09:19:19 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:19 UTC] Méthode index du contrôleur Home appelée
+[25-Oct-2024 09:19:20 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:21 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:55 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:19:56 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:20:02 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:20:03 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:20:33 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+
+[25-Oct-2024 09:20:34 UTC] Routes définies : Array
+(
+    [/] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/index] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Home
+                    [1] => index
+                )
+
+        )
+
+    [/login] => Array
+        (
+            [method] => Array
+                (
+                    [0] => GET
+                    [1] => POST
+                )
+
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => login
+                )
+
+        )
+
+    [/logout] => Array
+        (
+            [method] => GET
+            [controller] => Array
+                (
+                    [0] => Controller\Auth
+                    [1] => logout
+                )
+
+        )
+
+)
+

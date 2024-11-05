@@ -1,0 +1,49 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="user-content">
+    <h1>Catégories de jeu</h1>
+    <div class="tables-container">
+        <div class="table-wrapper">
+            <h2>Liste des catégories</h2>
+            <input type="text" id="searchCategory" placeholder="Rechercher une catégorie..">
+            <div class="table-container">
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nom de la catégorie</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         {% for category in categories %}
+                            <tr>
+                                <td>{{ category.id_categorie }}</td>
+                                <td>{{ category.libelle_categorie }}</td>
+                                <td>
+                                    <a class="btn btn-primary" href="/category/edit/{{ category.id_categorie }}">Modifier</a>
+                                        <form action="/category/delete/{{ category.id_categorie }}" method="POST" style="display:inline;">
+                                        <button class="btn btn-danger" type="submit">Supprimer</button>
+                                    </form>
+                                </td>
+                            </tr>
+                            
+                        {% endfor %}
+                    </tbody>
+                    
+                   
+                </table>
+            </div>
+             <a href="/category/add" class="btn btn-primary">Ajouter une catégorie</a> 
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
+
+{% endblock %}

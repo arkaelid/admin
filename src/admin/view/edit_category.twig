@@ -1,0 +1,11 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<h1>Modifier la catégorie</h1>
+<form action="/category/edit/{{ category.id_categorie }}" method="POST">
+    <label for="libelle">Libellé :</label>
+    <input type="text" name="libelle" value="{{ category.libelle_categorie }}" required>
+    <button type="submit">Modifier</button>
+</form>
+<a href="/category">Retour</a>
+{% endblock %}

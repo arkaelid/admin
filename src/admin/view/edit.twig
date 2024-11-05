@@ -1,0 +1,30 @@
+{% extends "layout.twig" %}
+
+{% block body_class %}edit-user-page{% endblock %}
+
+{% block content %}
+<div class="edit-user-container">
+    <h1 class="edit-user-title">Modifier l'utilisateur</h1>
+    <form class="edit-user-form" method="POST">
+        <div class="edit-user-field">
+            <label for="edit-pseudo" class="edit-user-label">Pseudo :</label>
+            <input type="text" id="edit-pseudo" name="pseudo" value="{{ user.pseudo_utilisateur }}" required class="edit-user-input">
+        </div>
+        
+        <div class="edit-user-field">
+            <label for="edit-mail" class="edit-user-label">Email :</label>
+            <input type="email" id="edit-mail" name="mail" value="{{ user.mail }}" required class="edit-user-input">
+        </div>
+        
+        <div class="edit-user-profile-image">
+            <p class="edit-user-image-label">Image de profil actuelle :</p>
+            <img src="{{ user.chemin_img_user }}" alt="Image de profil de {{ user.pseudo_utilisateur }}" class="edit-user-image">
+        </div>
+        
+        <div class="edit-user-actions">
+            <button type="submit" name="action" value="reset_image" class="edit-user-button edit-user-button-reset">Réinitialiser l'image de profil</button>
+            <button type="submit" name="action" value="update" class="edit-user-button edit-user-button-save">Enregistrer les modifications</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

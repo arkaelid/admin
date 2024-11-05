@@ -1,0 +1,15 @@
+<div class="game-card" data-gif-url="{{ game.chemin_gif }}">
+    <a href="/game/{{ game.id }}">
+        <div class="game-card-content">
+            <img src="{{ card_image }}" alt="{{ card_title }}" class="game-image">
+            <div class="game-info">
+                <h3>{{ card_title }}</h3>
+                <p>{{ card_text }}</p>
+                <p class="price">{{ card_price }} €</p>
+                {% if button_basket %}
+                    <button class="btn-green">Valider</button>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+</div>

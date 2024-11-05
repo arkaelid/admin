@@ -1,0 +1,85 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="user-content">
+    <h1>Gestion des utilisateurs</h1>
+    <div class="tables-container">
+        <div class="table-wrapper">
+            <h2>Liste des utilisateurs</h2>
+            <input type="text" id="searchUsers" placeholder="Rechercher un utilisateur...">
+            <div class="table-container">
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Pseudo</th>
+                            <th>Email</th>                
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user in users %}
+                            <tr>
+                                <td>{{ user.id_utilisateur }}</td>
+                                <td class="user-profile">
+                                    <img src="{{ user.chemin_img_user }}" alt="Photo de profil de {{ user.pseudo_utilisateur }}">
+                                    {{ user.pseudo_utilisateur }}
+                                </td>
+                                <td>{{ user.mail }}</td>
+                                <td>
+                                    <a href="/user/edit/{{ user.id_utilisateur }}" class="btn btn-primary">Modifier</a>
+                                    <a href="/user/ban/{{ user.id_utilisateur }}" class="btn btn-danger">Bannir</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="table-wrapper">
+            <h2>Utilisateurs bannis</h2>
+            <input type="text" id="searchBanned" placeholder="Rechercher un utilisateur banni...">
+            <div class="table-container">
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Pseudo</th>
+                            <th>Durée du ban</th>
+                            <th>Motif du ban</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for banned in bannedUsers %}
+                            <tr>
+                                <td>{{ banned.id_utilisateur }}</td>
+                                <td class="user-profile">
+                                    <img src="{{ banned.chemin_img_user }}" alt="Photo de profil de {{ banned.pseudo_utilisateur }}">
+                                    {{ banned.pseudo_utilisateur }}
+                                </td>
+                                <td>
+                                    {% if banned.ban_perma %}
+                                        Ban définitif
+                                    {% else %}
+                                        Du {{ banned.date_debutBan|date('d/m/Y') }} au {{ banned.date_finBan|date('d/m/Y') }}
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {{ banned.raison_ban }}
+                                </td>
+                                <td>
+                                    <form action="/user/unban/{{ banned.id_utilisateur }}" method="POST" style="display:inline;">
+                                        <button type="submit" class="btn btn-success">Débannir</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

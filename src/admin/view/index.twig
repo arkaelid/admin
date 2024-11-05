@@ -1,0 +1,40 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="admin-dashboard-wrapper admin-dashboard-centered">
+    <div class="admin-dashboard">
+        <h1 class="admin-dashboard__title">Bienvenue sur le tableau de bord administrateur de Game Horizon</h1>
+        
+  
+        
+        <div class="admin-dashboard__stats">
+            <div class="admin-dashboard__stat-card">
+                <h3 class="admin-dashboard__stat-title">Utilisateurs totaux</h3>
+                <p class="admin-dashboard__stat-value">
+                    {% if total_users is defined %}
+                        <p class="usercount"><span>{{ total_users }}</span> utilisateurs.</p>
+                    {% else %}
+                        N/A (non défini)
+                    {% endif %}
+                </p>
+            </div>
+            
+            <div class="admin-dashboard__stat-card">
+                <h3 class="admin-dashboard__stat-title">Utilisateurs bannis</h3>
+                <p class="admin-dashboard__stat-value">
+                    {% if banned_users is defined %}
+                        <p class="usercount"><span>{{ banned_users }}</span> utilisateurs bannis.</p>
+                    {% else %}
+                        N/A (non défini)
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        
+        <div class="admin-dashboard__actions">
+            <a href="/user" class="admin-dashboard__action-btn">Gérer les utilisateurs</a>
+            <a href="#" class="admin-dashboard__action-btn">Voir les signalements</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="ban-user-page">
+    <div class="ban-user-container">
+        <h1 class="ban-user-title">Bannir l'utilisateur : {{ user.pseudo_utilisateur }}</h1>
+        <form class="ban-user-form" method="POST">
+            <div class="ban-user-field">
+                <label for="date_debut" class="ban-user-label">Date de début du ban :</label>
+                <input type="datetime-local" id="date_debut" name="date_debut" required class="ban-user-input">
+            </div>
+            
+            <div class="ban-user-field">
+                <label for="date_fin" class="ban-user-label">Date de fin du ban (laisser vide pour ban permanent) :</label>
+                <input type="datetime-local" id="date_fin" name="date_fin" class="ban-user-input">
+            </div>
+            
+            <div class="ban-user-field ban-user-checkbox">
+                <label for="ban_perma" class="ban-user-label">Ban permanent :</label>
+                <input type="checkbox" id="ban_perma" name="ban_perma" class="ban-user-checkbox-input">
+            </div>
+            
+            <div class="ban-user-field">
+                <label for="raison" class="ban-user-label">Raison du ban :</label>
+                <textarea id="raison" name="raison" placeholder="20 caractères maximum" maxlength="20" required class="ban-user-textarea"></textarea>
+                 <div id="charCount" class="char-count">0/25</div>
+            </div>
+            
+            <button type="submit" class="ban-user-button">Bannir l'utilisateur</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+<script>
+document.getElementById('ban_perma').addEventListener('change', function() {
+    var dateFin = document.getElementById('date_fin');
+    dateFin.disabled = this.checked;
+    if (this.checked) {
+        dateFin.value = '';
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var textarea = document.getElementById('raison');
+    var charCount = document.getElementById('charCount');
+
+    // Mettre à jour le compteur de caractères
+    textarea.addEventListener('input', function() {
+        var currentLength = textarea.value.length;
+        charCount.textContent = currentLength + '/2O'; // Mettre à jour le texte du compteur
+    });
+
+    // Initialiser le compteur
+    charCount.textContent = textarea.value.length + '/20';
+});
+</script>
+{% endblock %}

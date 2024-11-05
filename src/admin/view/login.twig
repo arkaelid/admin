@@ -1,0 +1,16 @@
+     
+{% extends "layout.twig" %}
+
+{% block content %}
+
+    <div class="login">
+	<h1>Veuillez vous authentifier</h1>
+    <form action="/login" method="post">
+    	<input type="text" name="login" placeholder="Nom d'utilisateur" required="required" />
+        <input type="password" name="password" placeholder="Mot de passe" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Se connecter</button>
+    </form>
+</div>
+
+    
+{% endblock %}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Game Horizon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <nav class="sidebar" {% if session.login is not defined or not session.login %}style="display:none;"{% endif %}>
+        <div class="burger-icon" id="burger">
+            &#9776;
+        </div>
+        <ul>
+            <li>
+                <a href="/">
+                    <span class="icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="text">Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-circle-down"></i></span>
+                    <span class="text">proposition</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-gamepad"></i></span>
+                    <span class="text">Jeux</span>
+                </a>
+            </li>
+            <li>
+                <a href="/user">
+                    <span class="icon"><i class="fa-solid fa-users"></i></span>
+                    <span class="text">Utilisateurs</span>
+                </a>
+            </li>
+            <li>
+                <a href="/category">
+                    <span class="icon"><i class="fa-solid fa-layer-group"></i></span>
+                    <span class="text">Catégories</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-dollar-sign"></i></span>
+                    <span class="text">Transactions</span>
+                </a>
+            </li>
+            <li>
+                <span class="icon session"><i class="fa-solid fa-user"></i></span>
+                <span class="text session">Session : {{ session.login }}</span>
+            </li>
+            <li>
+                {% if session.login is defined and session.login %}
+                <a href="/logout">
+                    <span class="icon logout"><i class="fa-solid fa-right-from-bracket"></i></span>
+                    <span class="text logout">Déconnexion</span>
+                </a>
+                {% endif %}
+            </li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Contenu du footer -->
+    </footer>
+
+    {% block javascripts %}{% endblock %}
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

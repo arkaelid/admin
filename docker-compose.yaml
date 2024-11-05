@@ -1,0 +1,50 @@
+# docker build -t kapweb_php_fpm:0.0.1 . 
+services:
+  web:
+    image: nginx:latest
+    container_name: admin_nginx
+    # restart: always # unless-stopped | on-failure |  no
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/:/etc/nginx/conf.d/
+      - ./nginx/logs:/var/log/nginx
+    links:
+      - php 
+  db:
+    image: mariadb:latest
+    container_name: admin_db
+    environment:
+      - MARIADB_ROOT_PASSWORD=root_pwd
+      - MARIADB_USER=admin_id
+      - MARIADB_PASSWORD=admin_pwd
+      - MARIADB_DATABASE=admin_db
+    volumes:
+      - ./db/:/var/lib/mysql/
+      #- ./dump/:/docker-entrypoint-initdb.d/
+  
+  php:
+    build:
+      context: ./php/
+      dockerfile: Dockerfile
+    # image: kapweb_php_fpm:0.0.1
+    container_name: admin_php
+    volumes:
+      - ./src:/var/www/html/
+    tmpfs: /tmp
+    command: sh -c "cd admin && composer install --ignore-platform-reqs && php-fpm"
+    links:
+      - db 
+      
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: admin_phpmyadmin
+    ports:
+      - 9001:80
+    environment:
+      PMA_HOSTS: db
+    links:
+      - db
+     
