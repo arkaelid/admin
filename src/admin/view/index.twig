@@ -29,12 +29,20 @@
                     {% endif %}
                 </p>
             </div>
+             <div class="admin-dashboard__stat-card">
+    <h3 class="admin-dashboard__stat-title">Editeurs totaux</h3>
+    <p class="admin-dashboard__stat-value">
+        {% if total_editeurs is defined %}
+            <p class="usercount"><span>{{ total_editeurs }}</span> éditeurs.</p>
+        {% else %}
+            N/A (non défini)
+        {% endif %}
+    </p>
+</div>
         </div>
         
-        <div class="admin-dashboard__actions">
-            <a href="/user" class="admin-dashboard__action-btn">Gérer les utilisateurs</a>
-            <a href="#" class="admin-dashboard__action-btn">Voir les signalements</a>
-        </div>
+        
     </div>
 </div>
+
 {% endblock %}

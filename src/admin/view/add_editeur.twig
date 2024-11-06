@@ -1,0 +1,30 @@
+{% extends "layout.twig" %}
+{% block body_class %}edit-editeur-page{% endblock %}
+{% block content %}
+<div class="edit-editeur-container">
+    <h1 class="edit-editeur-title">Ajouter un éditeur</h1>
+    <form class="edit-editeur-form" method="POST" action="/editeur/add">
+        <div class="edit-editeur-field">
+            <label for="nom_societe" class="edit-editeur-label">Nom de la Société :</label>
+            <input type="text" id="nom_societe" name="nom_societe" required class="edit-editeur-input">
+        </div>
+        <div class="edit-editeur-field">
+            <label for="mail" class="edit-editeur-label">Email :</label>
+            <input type="email" id="mail" name="mail" required class="edit-editeur-input">
+        </div>
+        <div class="edit-editeur-field">
+            <label for="siret" class="edit-editeur-label">N° Siret :</label>
+            <input type="text" id="siret" name="siret" required class="edit-editeur-input">
+        </div>
+        <div class="edit-editeur-field">
+            <label for="adresse" class="edit-editeur-label">Siège social :</label>
+            <input type="text" id="adresse" name="adresse" required class="edit-editeur-input">
+        </div>
+        
+        <div class="edit-editeur-actions">
+            <button type="submit" class="edit-editeur-button edit-editeur-button-save">Ajouter l'éditeur</button>
+        </div>
+    </form>
+    <a href="/editeur" class="btn btn-secondary">Retour</a>
+</div>
+{% endblock %}

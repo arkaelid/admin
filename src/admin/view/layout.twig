@@ -22,7 +22,10 @@
             <li>
                 <a href="#">
                     <span class="icon"><i class="fa-solid fa-circle-down"></i></span>
-                    <span class="text">proposition</span>
+                    <span class="text">Proposition</span>
+                    {% if pending_games_count > 0 %}
+            <span class="notification-dot"></span>
+                    {% endif %}
                 </a>
             </li>
             <li>
@@ -35,6 +38,12 @@
                 <a href="/user">
                     <span class="icon"><i class="fa-solid fa-users"></i></span>
                     <span class="text">Utilisateurs</span>
+                </a>
+            </li>
+             <li>
+                <a href="/editeur">
+                    <span class="icon"><i class="fa-solid fa-users"></i></span>
+                    <span class="text">Editeurs</span>
                 </a>
             </li>
             <li>

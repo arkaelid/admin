@@ -36,4 +36,5 @@ class Main
         header("Location: $url");
         exit;
     }
+    
 }

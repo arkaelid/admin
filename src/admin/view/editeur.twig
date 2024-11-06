@@ -1,0 +1,184 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="editeur-content">
+    <h1>Gestion des éditeurs</h1>
+    
+    {% if success is defined and success %}
+        <div class="alert alert-success" id="successAlert">{{ success }}</div>
+    {% endif %}
+    
+    {% if error is defined and error %}
+        <div class="alert alert-danger" id="errorAlert">{{ error }}</div>
+    {% endif %}
+
+    <div class="editeur-table-container">
+        <input type="text" id="searchEditeurs" placeholder="Rechercher un éditeur...">
+        <table class="editeur-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom de la société</th>
+                    <th>Email</th>
+                    <th>SIRET</th>
+                    <th>Adresse</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for editeur in editeurs %}
+                    <tr>
+                        <td>{{ editeur.id_editeur }}</td>
+                        <td class="editeur-profile">
+                            <img src="{{ editeur.chemin_img_editeur }}" alt="Logo de {{ editeur.nom_societe }}">
+                            {{ editeur.nom_societe }}
+                        </td>
+                        <td>{{ editeur.mail_editeur }}</td>
+                        <td class="siret">{{ editeur.siret }}</td>
+                        <td>{{ editeur.adresse_editeur }}</td>
+                        <td>
+                            <a href="/editeur/edit_editeur/{{ editeur.id_editeur }}" class="btn btn-primary">Modifier</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            
+        </table>
+         <div class="button-container">
+        <a href="/editeur/add" class="btn btn-primary btn-editeur">Ajouter un éditeur</a> 
+        </div>
+    </div>
+    
+</div>
+
+<style>
+.editeur-content {
+    margin-left: 220px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.editeur-content::-webkit-scrollbar{
+    display: none;
+}
+.editeur-table-container {
+    width: 100%;
+    height: 700px; /* Hauteur augmentée */
+    overflow-y: auto; /* Défilement vertical uniquement */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+.editeur-table-container::-webkit-scrollbar{
+    display: none;
+}
+.editeur-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.editeur-table th {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 15px 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.editeur-table td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.editeur-profile {
+    display: flex;
+    align-items: center;
+}
+
+.editeur-table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+#searchEditeurs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.siret {
+    width: 190px;
+}
+
+.alert {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert.fade-out {
+    opacity: 0;
+}
+.editeur-table-container .editeur-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.btn-editeur {
+    margin-top: 20px;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const successAlert = document.getElementById('successAlert');
+    const errorAlert = document.getElementById('errorAlert');
+    
+    if (successAlert || errorAlert) {
+        const alert = successAlert || errorAlert;
+        
+        // Attendre 10 secondes avant de commencer la disparition
+        setTimeout(() => {
+            alert.classList.add('fade-out');
+            
+            // Supprimer l'élément après la transition
+            setTimeout(() => {
+                alert.remove();
+            }, 500); // 500ms = durée de la transition
+        }, 2000); // 10000ms = 10 secondes
+    }
+});
+</script>
+{% endblock %}

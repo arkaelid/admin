@@ -24,7 +24,7 @@ class User extends Main
     $this->view->Display('user', ['users' => $activeUsers, 'bannedUsers' => $bannedUsers]);
 }
 
-    public function edit($vars)
+    public function edit_user($vars)
     {
         $userId = $vars["id"] ?? null;
         if (!$userId) {
@@ -58,10 +58,10 @@ class User extends Main
         }
 
         $this->view->title = 'Modifier l\'utilisateur';
-        $this->view->Display('edit', ['user' => $user]);
+        $this->view->Display('edit_user', ['user' => $user]);
     }
 
-    public function ban($vars)
+    public function ban_user($vars)
     {
         $userId = $vars["id"] ?? null;
         if (!$userId) {
@@ -89,7 +89,7 @@ class User extends Main
         }
 
         $this->view->title = 'Bannir l\'utilisateur';
-        $this->view->Display('ban', ['user' => $user]);
+        $this->view->Display('ban_user', ['user' => $user]);
     }
 
     // Ajoutez cette méthode pour débannir un utilisateur

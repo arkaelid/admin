@@ -21,13 +21,13 @@ $routes =
         'method'=>'GET',
         'controller'=>['Controller\User','index'],
     ],
-    '/user/edit/{id}'=>[
+    '/user/edit_user/{id}'=>[
         'method'=>['GET', 'POST'],
-        'controller'=>['Controller\User','edit'],
+        'controller'=>['Controller\User','edit_user'],
     ],
-    '/user/ban/{id}'=>[
+    '/user/ban_user/{id}'=>[
         'method'=>['GET', 'POST'],
-        'controller'=>['Controller\User','ban'],
+        'controller'=>['Controller\User','ban_user'],
     ],
     '/user/unban/{id}' => [
         'method' => ['POST'], 
@@ -48,6 +48,22 @@ $routes =
     '/category/delete/{id}'=>[
         'method'=>'POST',
         'controller'=>['Controller\Cat','deleteCategory'],
+    ],
+    '/editeur'=>[
+        'method'=>'GET',
+        'controller'=>['Controller\editeur','editeur'],
+    ],
+    '/editeur/edit_editeur/{id}'=>[
+        'method'=>['GET', 'POST'],
+        'controller'=>['Controller\editeur','edit_editeur'],
+    ],
+    '/editeur/add'=>[
+        'method'=>['GET', 'POST'],
+        'controller'=>['Controller\editeur','addEditeur'],
+    ],
+    '/editeur/delete/{id}'=>[
+        'method'=>'POST',
+        'controller'=>['Controller\editeur','deleteEditeur'],
     ],
 ];
 

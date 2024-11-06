@@ -23,11 +23,11 @@
                                 <td>{{ category.id_categorie }}</td>
                                 <td>{{ category.libelle_categorie }}</td>
                                 <td>
-                                    <a class="btn btn-primary" href="/category/edit/{{ category.id_categorie }}">Modifier</a>
-                                        <form action="/category/delete/{{ category.id_categorie }}" method="POST" style="display:inline;">
-                                        <button class="btn btn-danger" type="submit">Supprimer</button>
-                                    </form>
-                                </td>
+    <a class="btn btn-primary" href="/category/edit/{{ category.id_categorie }}">Modifier</a>
+    <form action="/category/delete/{{ category.id_categorie }}" method="POST" style="display:inline;">
+        <button class="btn btn-danger" type="submit">Supprimer</button>
+    </form>
+</td>
                             </tr>
                             
                         {% endfor %}
@@ -36,14 +36,26 @@
                    
                 </table>
             </div>
-             <a href="/category/add" class="btn btn-primary">Ajouter une catégorie</a> 
+             <div class="button-container">
+    <a href="/category/add" class="btn btn-primary">Ajouter une catégorie</a> 
+</div> 
         </div>
         
         
     </div>
 </div>
 
+<style>
+.user-content {
+    margin-left: 220px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding: 20px;
+}
 
-
+</style>
 
 {% endblock %}

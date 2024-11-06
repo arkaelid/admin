@@ -49,6 +49,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchCategoryInput) {
         filterTable('searchCategory', '.user-table');
     }
+    const searchEditeurInput = document.getElementById('searchEditeurs');
+    if (searchEditeurInput) {
+        filterTable('searchEditeurs', '.editeur-table');
+    }
 });
 
 function filterTable(inputId, tableSelector) {

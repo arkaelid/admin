@@ -34,11 +34,36 @@ class Cat extends Main {
             $this->view->Display('edit_category', ['category' => $category]);
         }
     }
-
     public function deleteCategory($id) {
-        $categoryModel = new \Model\Category();
-        $categoryModel->deleteCategory((int) $id);
-        
-    }
+        try {
+            // Vérification et conversion sécurisée de l'ID
+            if (is_array($id)) {
+                if (empty($id)) {
+                    throw new \Exception('ID de catégorie invalide');
+                }
+                $categoryId = (int) reset($id); // Prend le premier élément du tableau de façon sécurisée
+            } else {
+                $categoryId = (int) $id;
+            }
     
+            if ($categoryId <= 0) {
+                throw new \Exception('ID de catégorie invalide');
+            }
+            
+            error_log("Tentative de suppression de la catégorie ID: " . $categoryId);
+            
+            $categoryModel = new \Model\Category();
+            $result = $categoryModel->deleteCategory($categoryId);
+            
+            error_log("Tentative de suppression terminée pour la catégorie " . $categoryId);
+            
+            header('Location: /category');
+            exit();
+        } catch (\Exception $e) {
+            error_log("Erreur lors de la suppression: " . $e->getMessage());
+            header('Location: /category?error=' . urlencode('La catégorie ne peut pas être supprimée: ' . $e->getMessage()));
+            exit();
+        }
+    }
+
 }

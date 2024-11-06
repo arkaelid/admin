@@ -23,16 +23,24 @@ class Db
     }
 
     public function query($sql, $params = [])
-    {
-        try {
-            $prepare = self::$pdo->prepare($sql);
-           
-            $prepare->execute($params);
-            return $prepare;
-        } catch (\PDOException $e) {
-            \Controller\Error::PdoException($e);
+{
+    try {
+        error_log("Exécution SQL: " . $sql);
+        error_log("Paramètres: " . print_r($params, true));
+        
+        $prepare = self::$pdo->prepare($sql);
+        $result = $prepare->execute($params);
+        
+        if (!$result) {
+            error_log("Erreur SQL: " . print_r($prepare->errorInfo(), true));
         }
+        
+        return $prepare;
+    } catch (\PDOException $e) {
+        error_log("Exception PDO: " . $e->getMessage());
+        throw $e;
     }
+}
 
     public function lastInsertId()
     {
