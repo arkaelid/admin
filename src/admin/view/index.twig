@@ -9,7 +9,7 @@
         
         <div class="admin-dashboard__stats">
             <div class="admin-dashboard__stat-card">
-                <h3 class="admin-dashboard__stat-title">Utilisateurs totaux</h3>
+                <h3 class="admin-dashboard__stat-title">Utilisateurs totaux :</h3>
                 <p class="admin-dashboard__stat-value">
                     {% if total_users is defined %}
                         <p class="usercount"><span>{{ total_users }}</span> utilisateurs.</p>
@@ -17,10 +17,11 @@
                         N/A (non défini)
                     {% endif %}
                 </p>
+                <a href="/user" class="btn btn-primary">Consulter</a>
             </div>
             
             <div class="admin-dashboard__stat-card">
-                <h3 class="admin-dashboard__stat-title">Utilisateurs bannis</h3>
+                <h3 class="admin-dashboard__stat-title">Utilisateurs bannis :</h3>
                 <p class="admin-dashboard__stat-value">
                     {% if banned_users is defined %}
                         <p class="usercount"><span>{{ banned_users }}</span> utilisateurs bannis.</p>
@@ -28,17 +29,30 @@
                         N/A (non défini)
                     {% endif %}
                 </p>
+                <a href="/user" class="btn btn-primary">Consulter</a>
             </div>
              <div class="admin-dashboard__stat-card">
-    <h3 class="admin-dashboard__stat-title">Editeurs totaux</h3>
-    <p class="admin-dashboard__stat-value">
-        {% if total_editeurs is defined %}
-            <p class="usercount"><span>{{ total_editeurs }}</span> éditeurs.</p>
-        {% else %}
-            N/A (non défini)
-        {% endif %}
-    </p>
-</div>
+                <h3 class="admin-dashboard__stat-title">Editeurs totaux :</h3>
+                 <p class="admin-dashboard__stat-value">
+                {% if total_editeurs is defined %}
+                    <p class="usercount"><span>{{ total_editeurs }}</span> éditeurs.</p>
+                        {% else %}
+                            N/A (non défini)
+                        {% endif %}
+                    </p>
+                    <a href="/editeur" class="btn btn-primary">Consulter</a>
+            </div>
+            <div class="admin-dashboard__stat-card">
+                <h3 class="admin-dashboard__stat-title">Nombre de catégories :</h3>
+                 <p class="admin-dashboard__stat-value">
+                {% if total_editeurs is defined %}
+                    <p class="usercount"><span>{{ total_category }}</span> catégories.</p>
+                        {% else %}
+                            N/A (non défini)
+                        {% endif %}
+                    </p>
+                    <a href="/category" class="btn btn-primary">Consulter</a>
+            </div>
         </div>
         
         

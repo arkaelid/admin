@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/css/style.css"/>
 </head>
 <body class="{% block body_class %}{% endblock %}">
-    <nav class="sidebar" {% if session.login is not defined or not session.login %}style="display:none;"{% endif %}>
+    <nav class="sidebar"  {% if session.login is not defined or not session.login %}style="display:none;"{% endif %}>
         <div class="burger-icon" id="burger">
-            &#9776;
+            <img  src="/images/logo-Game_Horizon.png" alt="burger">
         </div>
         <ul>
             <li>

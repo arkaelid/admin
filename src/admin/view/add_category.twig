@@ -1,11 +1,17 @@
 {% extends "layout.twig" %}
-
+{% block body_class %}edit-editeur-page{% endblock %}
 {% block content %}
-<h1>Ajouter une catégorie</h1>
-<form action="/category/add" method="POST">
+<div class="edit-editeur-container">
+<h1 class="edit-editeur-title">Ajouter une catégorie</h1>
+<form class="edit-editeur-form" action="/category/add" method="POST">
+<div class="edit-editeur-field">
     <label for="libelle">Libellé :</label>
-    <input type="text" name="libelle" required>
-    <button type="submit">Ajouter</button>
+    <input  type="text" name="libelle" required>
+</div>
+<div class="edit-editeur-actions">
+    <button class="edit-editeur-button edit-editeur-button-save" type="submit">Ajouter</button>
+</div>
 </form>
-<a href="/category">Retour</a>
+<a class="btn btn-secondary" href="/category">Retour</a>
+</div>
 {% endblock %}

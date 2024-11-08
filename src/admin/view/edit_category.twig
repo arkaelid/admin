@@ -1,11 +1,17 @@
 {% extends "layout.twig" %}
-
+{% block body_class %}edit-editeur-page{% endblock %}
 {% block content %}
-<h1>Modifier la catégorie</h1>
-<form action="/category/edit/{{ category.id_categorie }}" method="POST">
-    <label for="libelle">Libellé :</label>
-    <input type="text" name="libelle" value="{{ category.libelle_categorie }}" required>
-    <button type="submit">Modifier</button>
+<div class="edit-editeur-container">
+<h1 class="edit-editeur-title">Modifier la catégorie</h1>
+<form class="edit-editeur-form" action="/category/edit/{{ category.id_categorie }}" method="POST">
+    <div class="edit-editeur-field">
+        <label for="libelle">Libellé :</label>
+        <input type="text" name="libelle" value="{{ category.libelle_categorie }}" required>
+    </div>
+    <div class="edit-editeur-actions">
+        <button class="edit-editeur-button edit-editeur-button-save" name="action" value="update" type="submit">Modifier</button>
+    </div>
 </form>
-<a href="/category">Retour</a>
+<a class="btn btn-secondary" href="/category">Retour</a>
+</div>
 {% endblock %}

@@ -44,7 +44,7 @@ class User extends Main
                 // Réinitialiser l'image de profil
                 $data = ['chemin_img_user' => '/images/utilisateurs/user.png'];
                 $userModel->updateUser($userId, $data);
-                $this->redirect('/user/edit/' . $userId);
+                $this->redirect('/user/edit_user/' . $userId);
             } else {
                 // Mise à jour normale
                 $data = [

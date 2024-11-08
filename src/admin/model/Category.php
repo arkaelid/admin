@@ -44,4 +44,11 @@ class Category extends Db {
             throw $e;
         }
     }
+
+    public function getTotalCategorycount()
+    {
+        $sql = "SELECT COUNT(*) as count FROM categorie";
+        $result = $this->query($sql)->fetch();
+        return $result['count'];
+    }
 }
